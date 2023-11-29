@@ -6,6 +6,7 @@ public class PlantManager : MonoBehaviour
 {
     bool isPlanted = false;
     SpriteRenderer plant;
+    SpriteRenderer plot;
     BoxCollider2D plantCollider;
     public Sprite[] plantStages;
     int plantStage = 0;
@@ -17,6 +18,8 @@ public class PlantManager : MonoBehaviour
     {
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
         plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
+        plot = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -74,5 +77,23 @@ public class PlantManager : MonoBehaviour
         plant.sprite = plantStages[plantStage];
         plantCollider.size = plant.sprite.bounds.size;
         plantCollider.offset = new Vector2(0,plant.bounds.size.y/2);
+    }
+
+    private void OnMouseOver()
+    {
+        if (isPlanted)
+        {
+            plant.color = Color.red;
+        }
+        else
+        {
+            plot.color = Color.green;
+        }
+    }
+
+    private void OnMouseExit()
+    {
+        plant.color = Color.white;
+        plot.color = Color.white;
     }
 }
