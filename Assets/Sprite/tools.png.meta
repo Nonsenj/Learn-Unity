@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9e6d2ea6f3bde354db06e6a48d9bf54d
+guid: 0918ed8f6077b6d47a728b8bfcbab940
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Farm Items Extra_0
+      name: tools_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 282
-        width: 660
-        height: 490
+        x: 94
+        y: 659
+        width: 343
+        height: 565
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c779d168c96534b8ea26c06f695417
-      internalID: 155751259
+      spriteID: 2f8acf482335dbc4196c513ab5b4ab11
+      internalID: 583110446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farm Items Extra_1
+      name: tools_1
       rect:
         serializedVersion: 2
-        x: 690
-        y: 282
-        width: 660
-        height: 490
+        x: 458
+        y: 652
+        width: 181
+        height: 607
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f105449f2929874e983ab4b09427e4b
-      internalID: -661927359
+      spriteID: f674dfe895a0db9459d3764e3128fe20
+      internalID: -277617688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farm Items Extra_2
+      name: tools_2
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 532
-        width: 240
-        height: 240
+        x: 723
+        y: 652
+        width: 208
+        height: 607
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6271bc6e5ffe4647b02b9c6e80d04ad
-      internalID: -257096025
+      spriteID: a58471cd174a98e47a3e452e1e5ba539
+      internalID: 41285057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farm Items Extra_3
+      name: tools_3
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 252
-        width: 240
-        height: 240
+        x: 163
+        y: 128
+        width: 156
+        height: 436
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,62 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d23f49d6faf6f2542aeacdd4fa82e444
-      internalID: -331099981
+      spriteID: da9e25c6c07dad04baba75cb41ea1c0e
+      internalID: 14585782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farm Items Extra_4
+      name: tools_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 42
-        width: 340
-        height: 170
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c70a2684f9d0ff439e479872f0e024b
-      internalID: 1186968543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farm Items Extra_5
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 42
-        width: 340
-        height: 170
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e701d72516626fd4e9121e56e72c5a90
-      internalID: -727842945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farm Items Extra_6
-      rect:
-        serializedVersion: 2
-        x: 880
-        y: 52
-        width: 140
-        height: 180
+        x: 448
+        y: 109
+        width: 236
+        height: 476
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8ffb897e1ac1db45800b24d2591c0af
-      internalID: 1868984228
+      spriteID: a8ddc083364e0b04a8fb9a54d0fb8da1
+      internalID: -117971146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farm Items Extra_7
+      name: tools_5
       rect:
         serializedVersion: 2
-        x: 1170
-        y: 42
-        width: 180
-        height: 180
+        x: 773
+        y: 114
+        width: 137
+        height: 471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,29 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6800b70ba52c294b83e9e7c078f7845
-      internalID: -2125060710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farm Items Extra_8
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 42
-        width: 140
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d19747188be4f48ae9696ff6a8b6ae
-      internalID: 318804262
+      spriteID: 94fcb6598f016634bbc4d01943bd6366
+      internalID: 906928926
       vertices: []
       indices: 
       edges: []
@@ -309,15 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Farm Items Extra_0: 155751259
-      Farm Items Extra_1: -661927359
-      Farm Items Extra_2: -257096025
-      Farm Items Extra_3: -331099981
-      Farm Items Extra_4: 1186968543
-      Farm Items Extra_5: -727842945
-      Farm Items Extra_6: 1868984228
-      Farm Items Extra_7: -2125060710
-      Farm Items Extra_8: 318804262
+      tools_0: 583110446
+      tools_1: -277617688
+      tools_2: 41285057
+      tools_3: 14585782
+      tools_4: -117971146
+      tools_5: 906928926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

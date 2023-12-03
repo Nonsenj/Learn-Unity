@@ -243,11 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60b9911154fa9b43bffbbad9a195456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plantStages:
-  - {fileID: 1142235701, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
-  - {fileID: 477002885, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
-  - {fileID: 1809953603, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
-  - {fileID: 1096374582, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
+  selectedPlant: {fileID: 11400000, guid: aca527cc80c2aa54499ff07021aaf452, type: 2}
 --- !u!60 &143875854429128077
 PolygonCollider2D:
   m_ObjectHideFlags: 0
