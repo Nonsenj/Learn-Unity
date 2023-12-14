@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98dc0e3649837e741a3a62527490cfcb, type: 3}
   m_Name: Corn
   m_EditorClassIdentifier: 
-  plantName: Corn
+  type: 0
+  actionType: 0
+  stackble: 1
+  image: {fileID: -1912587575, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
+  planName: 
   plantStages:
   - {fileID: 1142235701, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
   - {fileID: 477002885, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
   - {fileID: 1809953603, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
   - {fileID: 1096374582, guid: 6027360336769b0438e98c32fdcd5bd4, type: 3}
   timeBtwStages: 2
+  price: 5
