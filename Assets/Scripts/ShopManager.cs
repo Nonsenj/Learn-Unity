@@ -6,7 +6,7 @@ using System;
 
 public class ShopManager : MonoBehaviour
 {
-    float Pocket = 1500;
+    float Pocket = 300;
     public InventoryManager inventoryManager;
     public PlantObject[] itemsToPickup; //item
     public TMP_Text Money;

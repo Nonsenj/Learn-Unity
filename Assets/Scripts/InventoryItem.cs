@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Threading;
 
 public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -10,17 +11,28 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [Header("UI")]
     public Image image;
     public RectTransform m_transform;
+    public Text countText;
 
     //Now, only Plant not tool
     [HideInInspector] public PlantObject item;
+    [HideInInspector] public int count = 11;
     [HideInInspector] public Transform parentAfterDrag;
 
     public void InitialiseItem(PlantObject newItem)
     {
         item = newItem;
         image.sprite = newItem.image;
+        RefreshCount();
 
     }
+
+    public void RefreshCount()
+    {
+        countText.text = count.ToString();
+        bool textActive = count > 1;
+        countText.gameObject.SetActive(textActive);
+    }
+
     private void Start()
     {
         m_transform = GetComponent<RectTransform>();

@@ -3073,7 +3073,7 @@ GameObject:
   - component: {fileID: 1163170971}
   - component: {fileID: 1163170970}
   m_Layer: 0
-  m_Name: UI Chest_0
+  m_Name: Market
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3947,6 +3947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 593aad3c0fa77004393bf22c48f76003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxStackedItems: 4
   inventorySlots:
   - {fileID: 604047146}
   - {fileID: 2050412782}
@@ -4667,6 +4668,7 @@ GameObject:
   - component: {fileID: 1929145609}
   - component: {fileID: 1929145608}
   - component: {fileID: 1929145611}
+  - component: {fileID: 1929145612}
   m_Layer: 0
   m_Name: Shovel
   m_TagString: Item
@@ -4747,7 +4749,7 @@ Transform:
   m_GameObject: {fileID: 1929145607}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.4099994, y: -3.22, z: 0}
+  m_LocalPosition: {x: 6.61, y: -2.8, z: 0}
   m_LocalScale: {x: 1.8651361, y: 1.8651361, z: 1.8651361}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4798,6 +4800,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7070707, y: 0.8080808}
   m_EdgeRadius: 0
+--- !u!50 &1929145612
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929145607}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &1949173517 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7088919739783546630, guid: 0b9fcaf7626d0504189e68de453cbc86, type: 3}
